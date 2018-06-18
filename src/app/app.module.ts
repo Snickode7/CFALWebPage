@@ -4,15 +4,18 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { ServicesComponent } from './services/services.component';
 
 const appRoutes: Routes = [
   { path: 'aboutus', component: AboutusComponent },
+  { path: 'services', component: ServicesComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutusComponent
+    AboutusComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
