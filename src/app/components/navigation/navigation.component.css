@@ -1,0 +1,33 @@
+.search {
+    float: right;
+    margin-top: 5px;
+}
+
+.navLogo {
+    float: left;
+    margin-top: 5px;
+    margin-right: 25px;
+    width: 100px;
+    height: 75px;
+    border-radius: 3%;
+}
+
+.navbar {
+    background-color: #1AAF2F;
+}
+
+
+.nav-link {
+    color: red;
+}
+
+.nav-link :hover {
+    background-color: #0E0250;
+    color: #1AAF2F;
+    border-radius: 3%;
+}
+
+.search-btn {
+    color: #0E0250;
+    background-color: #36454f;
+}
