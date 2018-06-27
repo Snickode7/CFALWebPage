@@ -1,7 +1,4 @@
-.search {
-    float: right;
-    margin-top: 5px;
-}
+/**/
 
 .navLogo {
     float: left;
@@ -10,24 +7,49 @@
     width: 100px;
     height: 75px;
     border-radius: 3%;
+    box-shadow: 10px 10px  #36454f;
+}
+
+.fade {
+    background: #1AAF2F;
+    opacity: 0.8;
 }
 
 .navbar {
     background-color: #1AAF2F;
 }
 
-
-.nav-link {
-    color: red;
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1AAF2F;
 }
 
-.nav-link :hover {
+
+a.nav-link:link {
+    color: #0E0250;
+}
+
+a.nav-link:hover {
     background-color: #0E0250;
-    color: #1AAF2F;
-    border-radius: 3%;
+    border-radius: 50%;
+    box-shadow: 5px 5px  #36454f
 }
 
 .search-btn {
     color: #0E0250;
     background-color: #36454f;
 }
+
+.active {
+    color: #36454f;
+}
+
+@media only screen and (max-width: 600px) {
+    a.nav-link:hover {
+        background-color: #0E0250;
+        border-radius: 0%;
+        box-shadow: 5px 5px  #36454f;
+        text-align: center;
+    }
+}
+
+
