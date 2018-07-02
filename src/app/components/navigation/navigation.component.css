@@ -29,7 +29,7 @@
 
 a.nav-link:link {
     color: #0E0250;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 20px;
 }
 
@@ -39,13 +39,30 @@ a.nav-link:hover {
     box-shadow: 5px 5px  #36454f
 }
 
+.search-bar {
+    background-color: rgb(41, 252, 69);
+    color: #0E0250;
+    border: 2px solid #0E0250;
+}
+
+.search-bar:hover {
+    box-shadow: 5px 5px  #36454f
+}
+
+.search-bar::-webkit-input-placeholder {
+    color: #0E0250;
+    font-family: 'Oxygen', sans-serif;
+}
+
 .search-btn {
     color: #0E0250;
     background-color: #36454f;
+    font-family: 'Oxygen', sans-serif;
 }
 
-.active {
-    color: #36454f;
+.search-btn:hover {
+    color: #1AAF2F;
+    box-shadow: 5px 5px  #36454f;
 }
 
   
@@ -54,7 +71,7 @@ a.nav-link:hover {
 
     a.nav-link:link {
         color: #0E0250;
-        font-family: 'Anton', sans-serif;
+        font-family: 'Oxygen', sans-serif;
         font-size: 16px;
     }
 
