@@ -1,8 +1,8 @@
 #carousel {
     width: max-width;
     height: max-height;
-    background-color: #1AAF2F;
-    padding-top: 160px;
+    background-color: #36454f;
+    padding-top: 90px;
 }
 
 .item,
@@ -23,7 +23,11 @@
 .carouselContainer {
     width: 100%;
     height: auto;
-    border: 5px solid #0E0250;
+    /*border: 5px solid #0E0250;  */
+}
+
+.shadow {
+    box-shadow: 0 0 8px 8px #36454f inset;
 }
 
 @media only screen and (max-width: 990px) {
@@ -31,8 +35,8 @@
     #carousel {
         width: 100%;
         height: max-height;
-        background-color: #1AAF2F;
-        padding-top: 150px;
+        background-color: #36454f;
+        padding-top: 90px;
         float: none;
     }
 
