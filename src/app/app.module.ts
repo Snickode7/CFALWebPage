@@ -7,12 +7,15 @@ import { JsonpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { CalendarComponent } from './components/calendar/calendar.component';
 import { ServicesComponent } from './components/services/services.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 
+
 const appRoutes: Routes = [
   { path: 'aboutus', component: AboutusComponent },
+  { path: 'calendar', component: CalendarComponent },
   { path: 'services', component: ServicesComponent }
 ];
 
@@ -20,10 +23,10 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     AboutusComponent,
+    CalendarComponent,
     ServicesComponent,
     NavigationComponent,
-    CarouselComponent
-
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,

@@ -15,21 +15,29 @@
         <app-carousel></app-carousel>
     </div> 
   </div>  
-  <div class="row">
-    <div class="col-6">
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
-        fjs.parentNode.insertBefore(js, fjs);}
-        (document, 'script', 'facebook-jssdk'));</script>
-      
-        <iframe class="fb-plugin" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com/centerforaccessibleliving%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-          width="340" height="500" style="border:5px solid #0E0250;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-    </div>
-  </div>  
+  <div class="events-container">
+    <div class="row">
+      <div class="col-sm">
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+          fjs.parentNode.insertBefore(js, fjs);}
+          (document, 'script', 'facebook-jssdk'));</script>
+        
+          <iframe class="fb-plugin" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com/centerforaccessibleliving%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            width="340" height="500" style="border:5px solid #0E0250;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      </div>
+      <div class="col-sm">
+        <h1>Upcoming Events</h1>
+      </div>
+      <div class="col-sm">
+          <h1>News</h1>
+      </div>
+    </div>  
+</div>
 
   <div class="row">
     <div class="col">

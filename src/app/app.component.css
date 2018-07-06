@@ -24,16 +24,16 @@ p {
 }
 
 .footer {
-    background-color: #0E0250;
-    border-left: 5px solid #1AAF2F;
-    border-right: 5px solid #1AAF2F;
-    border-top: 5px solid #1AAF2F;
+    background-color: #1AAF2F;
+    border-left: 5px solid #0E0250;
+    border-right: 5px solid #0E0250;
+    border-top: 5px solid #0E0250;
 }
 
 .footer-caption {
     font-family: "Oxygen", sans-serif;
     font-size: 12px;
-    color: #1AAF2F;
+    color: whitesmoke;
     float: left;
     padding-right: 50px;
 }
@@ -41,13 +41,16 @@ p {
 .donate-btn {
     width: 250px;
     background-color: whitesmoke;
+    color: #0E0250;
+    font-family: "Anton", sans-serif;
+    border: 2px solid #0E0250;
 }
 
 .donate-btn:hover {
     background-color: gold;
-    color:#0E0250;
+    color: #1AAF2F;
     width: 250px;
-    box-shadow: 2px 2px  #36454f;
+    box-shadow: 5px 5px  #36454f;
 }
 
 /*+++++++++========Media Queries===========++++++++++++*/
@@ -63,7 +66,7 @@ p {
     .footer-caption {
         font-family: "Oxygen", sans-serif;
         font-size: 10px;
-        color: #1AAF2F;
+        color: whitesmoke;
         float: left;
         margin-bottom: -10px;
     }
@@ -76,12 +79,15 @@ p {
         width: 50%;
         margin: 0 auto;
         background-color: whitesmoke;
+        color: #0E0250;
+        border: 2px solid #0E0250;
     }
 
     .donate-btn:hover {
         width: 50%;
         background-color: gold;
-        box-shadow: 2px 2px  #36454f;
+        color: #1AAF2F;
+        box-shadow: 5px 5px  #36454f;
      }
 }
 
@@ -96,12 +102,14 @@ p {
         width: 100%;
         margin: 0 auto;
         background-color: whitesmoke;
+        border: 2px solid #0E0250;
     }
 
     .donate-btn:hover {
         width: 100%;
         background-color: gold;
-        box-shadow: 2px 2px  #36454f;
+        color: #1AAF2F;
+        box-shadow: 5px 5px  #36454f;
      }
 
 
