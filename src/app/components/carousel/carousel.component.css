@@ -15,7 +15,7 @@
     margin-top: 30px;
 }
 
-.carousel-inner {
+.inner-carousel {
     /* make sure your .items will get correct height */
     height: 100%;
   }
@@ -27,7 +27,8 @@
 }
 
 .shadow {
-    box-shadow: 0 0 8px 8px #36454f inset;
+    border: 5px solid whitesmoke;
+    box-shadow: 10px 10px 5px #0E0250;
 }
 
 @media only screen and (max-width: 990px) {

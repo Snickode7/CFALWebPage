@@ -11,7 +11,7 @@
         <p>The Center for Accessible Living is an innovative leader in empowering all people to achieve their goal of 
           independent living while involving the entire community.</p>
     </div>
-    <div class="col-sm-6 order-1">
+    <div class="col-sm-6 order-1 carousel">
         <app-carousel></app-carousel>
     </div> 
   </div>  
@@ -26,24 +26,64 @@
           js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
           fjs.parentNode.insertBefore(js, fjs);}
           (document, 'script', 'facebook-jssdk'));</script>
-        
+        <h2 class="fb-banner">Follow us on Facebook!</h2>
           <iframe class="fb-plugin" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com/centerforaccessibleliving%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-            width="340" height="500" style="border:5px solid #0E0250;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            width="340" height="500" style="border:5px solid whitesmoke;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
       </div>
-      <div class="col-sm">
-        <h1>Upcoming Events</h1>
+      <div class="col-sm events-box">
+        <div class="inner-events-box">
+          <h2>Upcoming Events</h2>
+            <ul>
+                <li>
+                  <a class="eventsLink" href="/services">Use your Kroger Plus card to earn money for CAL!</a>
+                </li>
+                <li>
+                    <a class="eventsLink" href="/services">100 Ramps built by Ford and UAW Local 862</a>
+                </li>
+                <li>
+                    <a class="eventsLink" href="/services">Supported Services for Veterans and Their Families (SSVF Program) in Western Kentucky</a>
+                </li>
+                <li>
+                    <a class="eventsLink" href="/services">Murray CAL Consumer First in the State to Complete VR Pilot Car Individual Development Account (IDA) Program</a>
+                </li>
+                <li>
+                    <a class="eventsLink" href="/services">Responding to Crime Victims with Disabilities: A Kentucky Resource Guide</a>
+                </li>
+            </ul>
+        </div> 
       </div>
-      <div class="col-sm">
-          <h1>News</h1>
+      <div class="col-sm events-box">
+          <div class="inner-events-box">
+            <h2>News</h2>
+              <ul>
+                  <li>
+                    <a class="eventsLink" href="/services">Use your Kroger Plus card to earn money for CAL!</a>
+                  </li>
+                  <li>
+                      <a class="eventsLink" href="/services">100 Ramps built by Ford and UAW Local 862</a>
+                  </li>
+                  <li>
+                      <a class="eventsLink" href="/services">Supported Services for Veterans and Their Families (SSVF Program) in Western Kentucky</a>
+                  </li>
+                  <li>
+                      <a class="eventsLink" href="/services">Murray CAL Consumer First in the State to Complete VR Pilot Car Individual Development Account (IDA) Program</a>
+                  </li>
+                  <li>
+                      <a class="eventsLink" href="/services">Responding to Crime Victims with Disabilities: A Kentucky Resource Guide</a>
+                  </li>
+              </ul>
+          </div>    
       </div>
     </div>  
 </div>
 
+<div class="container-fluid">
   <div class="row">
     <div class="col">
       <router-outlet></router-outlet>
     </div>
-   </div>   
+   </div> 
+  </div>     
    
 
   <div class="navbar navbar-default fixed-bottom footer">

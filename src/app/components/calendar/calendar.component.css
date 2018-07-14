@@ -1,7 +1,18 @@
 .calendar-container-1 {
-    margin-left: auto;
-    margin-right: auto;
-    float: right;
+    padding-top: 250px;
+    padding-bottom: 270px;
+}
+
+.calendar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+    border: 5px solid whitesmoke;
+    box-shadow: 10px 10px 5px #0E0250;
+    
 }
 
 
@@ -10,6 +21,7 @@ h1 {
     padding-bottom: 75px;
     font-family: 'Anton', sans-serif;
     color: #1AAF2F;
-    text-shadow: 10px 10px  #0E0250;
+    text-shadow: -1px 0 #0E0250, 0 1px #0E0250, 1px 0 #0E0250, 0 -1px #0E0250;
     text-align: center;
 }
+
