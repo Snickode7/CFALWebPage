@@ -29,6 +29,7 @@ h3 {
 .fb-banner {
     margin-top: 5px;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 p {
@@ -62,11 +63,12 @@ li {
 
 .fb-plugin {
     border: 5px solid whitesmoke;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto auto;
+}
+
+.fb-div {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
 }
 
 .fb-box {
@@ -128,8 +130,10 @@ li {
         float: right;
     }
 
-    .fb-plugin {
+    .fb-div {
         margin: 0 auto;
+        display: block;
+        text-align: center;
     }
 
     .inner-events-box {
@@ -175,6 +179,12 @@ li {
         font-size: 25px;
     }
 
+    .fb-div {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
     .fb-banner {
         font-size: 20px;
         padding-top: 5px;
@@ -203,7 +213,6 @@ li {
 
     .fb-plugin {
         border: 5px solid #0E0250;
-        margin-left: 15px; 
         margin-bottom: 15px;
     }
 
