@@ -17,11 +17,17 @@
 
 
 h1 {
-    padding-top: 150px;
-    padding-bottom: 75px;
+    margin-top: 150px;
+    margin-bottom: 75px;
+    margin-left: 0;
+    margin-right: 0;
     font-family: 'Anton', sans-serif;
     color: #1AAF2F;
     text-shadow: -1px 0 #0E0250, 0 1px #0E0250, 1px 0 #0E0250, 0 -1px #0E0250;
     text-align: center;
+    border: 5px solid whitesmoke;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px #0E0250;
 }
 
