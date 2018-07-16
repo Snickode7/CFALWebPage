@@ -70,7 +70,7 @@ ul {
 
 li:before {
     content: "•";
-    color: #1AAF2F;
+    color: #0E0250;
     display: inline-block; 
     width: 1em;
     margin-left: -1em
