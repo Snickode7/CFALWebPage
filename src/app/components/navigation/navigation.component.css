@@ -75,7 +75,21 @@ a.nav-link:hover {
     box-shadow: 5px 5px  #36454f;
 }
 
-  
+.social-icons {
+    
+}
+
+.social-links {
+    margin-right: 10px;
+}
+
+.social-links:hover {
+    background-color: #0E0250;
+    border-radius: 25px;
+    box-shadow: 5px 5px  #36454f;
+}
+
+
 
 @media only screen and (max-width: 990px) {
 
@@ -96,8 +110,17 @@ a.nav-link:hover {
     }
 
     .nav-item {
-        border-left: 2px solid whitesmoke;
-        border-right: 2px solid whitesmoke;
+        border: none;
+    }
+
+    .social-links:hover {
+        background-color: #0E0250;
+        border-radius: 5px;
+        box-shadow: 2px 2px  #36454f;
+    }
+
+    .social-container {
+        text-align: center;
     }
 }
 

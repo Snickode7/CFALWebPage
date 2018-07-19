@@ -8,9 +8,45 @@
     <div class="row">
       <div class="col-sm-6 order-2 order-lg-1 order-md-1">
         <h1>Center for Accessible Living</h1>
-        <h3>Mission</h3>
-        <p>The Center for Accessible Living is an innovative leader in empowering all people to achieve their goal of independent
-          living while involving the entire community.</p>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link accordion-title" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Mission
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body accordion-p">
+                    The Center for Accessible Living is an innovative leader in empowering all people to achieve their goal of independent
+                    living while involving the entire community.
+                </div>
+              </div>
+            </div>
+        </div>  
+
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link accordion-title" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Independent Living
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body accordion-p">
+                    “Independent Living does not mean that we want to do everything by ourselves, do not need anybody or like to live in isolation. 
+                    Independent Living means that we demand the same choices and control in our every-day lives that our non-disabled brothers and sisters, neighbors and friends take for granted.
+                    We want to grow up in our families, go to the neighborhood school, use the same bus as our neighbors; work in jobs that are in line with our education and interests, and raise families of our own. We are profoundly ordinary people sharing the same need to feel included, recognized and loved.”<br>
+                    – Dr. Adolf Ratzka
+                </div>
+              </div>
+            </div>
+        </div>  
       </div>
       <div class="col-sm-6 order-1 carousel">
         <app-carousel></app-carousel>
@@ -80,8 +116,8 @@
               </ul>
               -->
               <ul>
-                <li *ngFor="let event of events">
-                  {{ event.name}} {{ event.eventDate}}
+                <li  *ngFor="let event of events">
+                  <a class="eventsLink" href="/">{{ event.name }} {{ event.eventDate }}</a>
                 </li>
               </ul>
 

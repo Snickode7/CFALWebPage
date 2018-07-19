@@ -1,5 +1,6 @@
+
 h1 {
-    margin-top: 150px;
+    margin-top: 120px;
     font-family: 'Anton', sans-serif;
     color: #1AAF2F;
     text-shadow: -1px 0 #0E0250, 0 1px #0E0250, 1px 0 #0E0250, 0 -1px #0E0250;
@@ -24,6 +25,8 @@ h2 {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 10px;
+    font-size: 25px;
+    letter-spacing: 1px;
     
 
 }
@@ -46,6 +49,34 @@ h3 {
     text-align: center;
 }
 
+.accordion {
+    margin-top: 25px;
+    border: none;
+}
+
+.accordion-title {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: #1AAF2F;
+    text-shadow: -1px 0 #0E0250, 0 1px #0E0250, 1px 0 #0E0250, 0 -1px #0E0250;
+    background-color: #36454f;
+    border: none;
+}
+
+.card-header {
+    border: none;
+}
+
+.card {
+    background-color: #36454f;
+    border: none;
+}
+
+.accordion-p {
+    font-family: 'Oxygen', sans-serif;
+    color: whitesmoke;
+}
+
 p {
     font-family: 'Oxygen', sans-serif;
     color: whitesmoke;
@@ -61,7 +92,6 @@ p {
     font-family: 'Oxygen', sans-serif;
     color: #0E0250;
     font-size: 1em;
-    padding-right: 5px;
 }
 
 ul {
@@ -107,7 +137,7 @@ li {
     background-color: gray;
     box-shadow: 10px 10px 5px #0E0250;
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 25px;
 }
 
@@ -144,16 +174,19 @@ li {
     box-shadow: 5px 5px  #36454f;
 }
 
+
+
 /*+++++++++========Media Queries===========++++++++++++*/
 
 @media only screen and (max-width: 960px) {
     h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .eventsLink {
         font-size: 13px;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -176,6 +209,11 @@ li {
         text-align: center;
     }
 
+    .events-box {
+        width: 100%;
+        height: 100%;
+    }
+
     .inner-events-box {
         border: 5px solid whitesmoke;
         box-shadow: 10px 10px 5px #0E0250;
@@ -193,7 +231,7 @@ li {
     }
 
     .footerLogo {
-       display: none;
+        display: none;
     }
 
     .donate-btn {
@@ -209,7 +247,7 @@ li {
         background-color: gold;
         color: #1AAF2F;
         box-shadow: 5px 5px  #36454f;
-     }
+    }
 }
 
 @media only screen and (max-width: 480px) {
