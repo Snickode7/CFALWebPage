@@ -1,0 +1,119 @@
+<div class='container-fluid'>
+  <div class='row'>
+    <div class="col">
+      <app-navigation></app-navigation>
+    </div>
+  </div>
+  <div *ngIf="router.url =='/' ">
+    <div class="row">
+      <div class="col-sm-6 order-2 order-lg-1 order-md-1">
+        <h1>Center for Accessible Living</h1>
+        <h3>Mission</h3>
+        <p>The Center for Accessible Living is an innovative leader in empowering all people to achieve their goal of independent
+          living while involving the entire community.</p>
+      </div>
+      <div class="col-sm-6 order-1 carousel">
+        <app-carousel></app-carousel>
+      </div>
+    </div> 
+  </div> 
+      <div class="events-container contanier-fluid" *ngIf="router.url =='/' ">
+        <div class="row">
+          <div class="col-sm fb-box">
+            <div id="fb-root"></div>
+            <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+                fjs.parentNode.insertBefore(js, fjs);
+              }
+                (document, 'script', 'facebook-jssdk'));</script>
+            <div class="fb-div">
+              <h2 class="fb-banner">Follow us on Facebook!</h2>
+              <iframe class="fb-plugin" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com/centerforaccessibleliving%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:5px solid #0E0250;;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+                allow="encrypted-media"></iframe>
+            </div>
+          </div>
+          <div class="col-sm events-box">
+            <div class="inner-events-box">
+              <h2 class="events-banner">Upcoming Events</h2>
+              <ul>
+                <li>
+                  <a class="eventsLink" href="/services">Use your Kroger Plus card to earn money for CAL!</a>
+                </li>
+                <li>
+                  <a class="eventsLink" href="/services">100 Ramps built by Ford and UAW Local 862</a>
+                </li>
+                <li>
+                  <a class="eventsLink" href="/services">Supported Services for Veterans and Their Families (SSVF Program) in Western Kentucky</a>
+                </li>
+                <li>
+                  <a class="eventsLink" href="/services">Murray CAL Consumer First in the State to Complete VR Pilot Car Individual Development Account (IDA) Program</a>
+                </li>
+                <li>
+                  <a class="eventsLink" href="/services">Responding to Crime Victims with Disabilities: A Kentucky Resource Guide</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm events-box">
+            <div class="inner-events-box">
+              <h2 class="events-banner">News</h2>
+             <!-- <ul>
+                <li>
+                  <a class="eventsLink" href="/services">Use your Kroger Plus card to earn money for CAL!</a>
+                </li>
+                <li>
+                  <a class="eventsLink" href="/services">100 Ramps built by Ford and UAW Local 862</a>
+                </li>
+                <li>
+                  <a class="eventsLink" href="/services">Supported Services for Veterans and Their Families (SSVF Program) in Western Kentucky</a>
+                </li>
+                <li>
+                  <a class="eventsLink" href="/services">Murray CAL Consumer First in the State to Complete VR Pilot Car Individual Development Account (IDA) Program</a>
+                </li>
+                <li>
+                  <a class="eventsLink" href="/services">Responding to Crime Victims with Disabilities: A Kentucky Resource Guide</a>
+                </li>
+              </ul>
+              -->
+              <ul>
+                <li *ngFor="let event of events">
+                  {{ event.name}} {{ event.eventDate}}
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="navbar navbar-default fixed-bottom footer">
+    <div class="container-fluid">
+
+      <a href="http://youtu.be/zJahlKPCL9g" class="navbar-btn btn-outline-success btn btn-block donate-btn">
+        <span class="glyphicon glyphicon-star"></span> Donate!!</a>
+
+      <p class="navbar-text footer-caption">©2018 Center for Accessible Living
+        <a href="#" target="_blank">
+          <img class="footerLogo" src="../assets/images/logo-footer.png" alt="Center for Accessible Living Logo">
+        </a>
+      </p>
+    </div>
+
+
+  </div>
+</div>

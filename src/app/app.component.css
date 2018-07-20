@@ -203,11 +203,15 @@ li {
         float: right;
     }
 
-    .fb-div {
-        margin: 0 auto;
-        display: block;
+    .fb-box {
+        margin-left: 25%;
+        margin-right: 25%;
         text-align: center;
+        margin-bottom: 10px;
     }
+
+   
+
 
     .events-box {
         width: 100%;
@@ -250,7 +254,7 @@ li {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 510px) {
 
     h1 {
         margin-top: 49px;
@@ -258,6 +262,12 @@ li {
     }
 
     .fb-div {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .fb-box {
         margin: 0 auto;
         display: block;
         text-align: center;
