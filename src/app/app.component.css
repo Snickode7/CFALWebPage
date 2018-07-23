@@ -61,10 +61,21 @@ h3 {
     text-shadow: -1px 0 #0E0250, 0 1px #0E0250, 1px 0 #0E0250, 0 -1px #0E0250;
     background-color: #36454f;
     border: none;
+    
+}
+
+.accordion-title::after {
+    content: "⇓";
+    color: #1AAF2F;
+    display: inline-block; 
+    align-self: flex-end;
+    margin-left: 50px;
+    width: 1em;
 }
 
 .card-header {
     border: none;
+    display: flex;
 }
 
 .card {
