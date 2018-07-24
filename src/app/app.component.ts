@@ -18,11 +18,8 @@ export class Event {
 }
 
 
-export function ArrowChange() {
-  document.getElementById('accordionButton').onclick = function() {
-    alert('click');
-};
-}
+
+
 
 
 

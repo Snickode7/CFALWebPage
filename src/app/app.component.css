@@ -65,7 +65,7 @@ h3 {
 }
 
 .accordion-title::after {
-    content: "⇓";
+    content: "∨";
     color: #1AAF2F;
     display: inline-block; 
     align-self: flex-end;
