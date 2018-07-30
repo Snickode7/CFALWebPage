@@ -1,0 +1,34 @@
+
+<div class="col-sm events-box">
+  <div class="inner-events-box">
+    <h2 class="events-banner">Upcoming Events</h2>
+    <ul>
+      <li>
+        <a class="eventsLink" href="/services">Use your Kroger Plus card to earn money for CAL!</a>
+      </li>
+      <li>
+        <a class="eventsLink" href="/services">100 Ramps built by Ford and UAW Local 862</a>
+      </li>
+      <li>
+        <a class="eventsLink" href="/services">Supported Services for Veterans and Their Families (SSVF Program) in Western Kentucky</a>
+      </li>
+      <li>
+        <a class="eventsLink" href="/services">Murray CAL Consumer First in the State to Complete VR Pilot Car Individual Development Account (IDA) Program</a>
+      </li>
+      <li>
+        <a class="eventsLink" href="/services">Responding to Crime Victims with Disabilities: A Kentucky Resource Guide</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="col-sm events-box">
+  <div class="inner-events-box">
+    <h2 class="events-banner">News</h2>
+    <ul>
+      <li  *ngFor="let event of events">
+        <a class="eventsLink" href="/">{{ event.name }} {{ event.eventDate }}</a>
+      </li>
+    </ul>
+
+  </div>
+</div>

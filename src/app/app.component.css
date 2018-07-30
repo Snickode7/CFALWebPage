@@ -7,9 +7,9 @@ h1 {
     text-align: center;
     letter-spacing: 1px;
     font-size: 45px;
-    border: 5px solid #1AAF2F;
+    border: 5px solid whitesmoke;
     border-radius: 25px;
-    background-color: whitesmoke;
+    background-color: gray;
     box-shadow: 10px 10px 5px #0E0250;
 }
 

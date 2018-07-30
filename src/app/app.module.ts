@@ -11,6 +11,7 @@ import { CalendarComponent } from './components/calendar/calendar.component';
 import { ServicesComponent } from './components/services/services.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { EventsNewsComponent } from './components/events-news/events-news.component';
 
 
 const appRoutes: Routes = [
@@ -27,6 +28,7 @@ const appRoutes: Routes = [
     ServicesComponent,
     NavigationComponent,
     CarouselComponent,
+    EventsNewsComponent,
   ],
   imports: [
     BrowserModule,
